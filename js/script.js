@@ -20,7 +20,7 @@ function createArray() {
 
     gameArray.push(obj);
   }
-  gameArray.toSorted((a, b) => a.rang - b.rang);
+  gameArray = gameArray.toSorted((a, b) => a.rang - b.rang);
   return gameArray;
 }
 
