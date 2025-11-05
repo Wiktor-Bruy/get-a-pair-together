@@ -60,6 +60,9 @@ button:hover {
 }
 
 /*----------------------------------------------------------------------------------Game-page*/
+.game.over {
+  display: none;
+}
 .title-game {
   text-align: center;
   padding: 20px 0;
@@ -87,15 +90,18 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: chartreuse;
-  transition: visibility 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
 }
 .image-fon.none {
-  visibility: hidden;
+  opacity: 0;
 }
 
 /*-----------------------------------------------------------------------------------Win-page*/
 .win {
   display: none;
+}
+.win.true {
+  display: block;
 }
 .win .container {
   display: flex;
