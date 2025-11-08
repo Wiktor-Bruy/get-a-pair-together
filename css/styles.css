@@ -90,10 +90,10 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: chartreuse;
-  transition: opacity 250ms ease-in-out;
+  transition: visibility 250ms ease-in-out;
 }
 .image-fon.none {
-  opacity: 0;
+  visibility: hidden;
 }
 
 /*-----------------------------------------------------------------------------------Win-page*/
